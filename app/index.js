@@ -34,6 +34,12 @@ export default function Login() {
 }
 
 const styles=StyleSheet.create({
+  container:{
+        flex:1,
+        backgroundColor:'#f8f9fa',
+        padding:24,
+        justifyContent:'center'
+    },
   title:{fontSize:34, fontWeight:'900', color:'#2f3640', 
     textAlign:'center'},
     subtitle:{color:'#7f8c8d', textAlign:'center', marginTop: 8,
